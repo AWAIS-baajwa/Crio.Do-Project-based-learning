@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.width {
+  width: 78%;
+}
+.left_1 {
+  left: 45%;
+}
+.left_2 {
+  left: 35%;
+}
+.left_3 {
+  left: 43%;
+}
+.left_4 {
+  left: 172px;
+}
+.top_1 {
+  top: -66px;
+}
+.height_card {
+  height: 30vw;
+}
+.upper_border_radius {
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 50px; */
+  /* -----top-left, top-right, bottom-right, bottom-left */
+  border-radius: 50px 50px 0px 0px;
+}
+
+.lower_border_radius {
+  /* border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px; */
+  /* -----top-left, top-right, bottom-right, bottom-left */
+  border-radius: 0px 0px 50px 50px;
+}
+
+.pic_radius {
+  border-radius: 50px;
+}
+.height_last {
+  height: 45vw;
+}
+
+.footer_border_radius {
+  /* border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px; */
+  /* -----top-left, top-right, bottom-right, bottom-left */
+  border-radius: 0px 0px 200px 200px;
+}
